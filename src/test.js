@@ -1,4 +1,4 @@
-// import { getHits, sorter } from "../src/index.js";
+
 import Character from "../src/index.js";
 
 test("new Character", () => {
@@ -21,6 +21,6 @@ test("damage ", () => {
     const person = new Character("Тор","Daemon");
     person.damage(99);
     const result = person.health;
-    const expected = 1;
+    const expected = 40.6;
     expect(result).toBe(expected);
 })
